@@ -13,11 +13,11 @@ from keras.utils.vis_utils import plot_model
 from keras.utils.vis_utils import model_to_dot
 from keras.callbacks import Callback
 
-from kerastuner.tuners import RandomSearch
+#from kerastuner.tuners import RandomSearch
 
 from sklearn.metrics import r2_score
 
-from livelossplot import PlotLossesKeras
+#from livelossplot import PlotLossesKeras
 
 
 from utils import rmse, coeff_determination, smape
