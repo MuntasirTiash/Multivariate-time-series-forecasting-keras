@@ -12,7 +12,7 @@ from keras.models import Sequential
 from keras.callbacks import EarlyStopping, TensorBoard, ModelCheckpoint
 from keras.callbacks import Callback
 
-from kerastuner.tuners import RandomSearch
+#from kerastuner.tuners import RandomSearch
 
 from sklearn.metrics import r2_score
 
